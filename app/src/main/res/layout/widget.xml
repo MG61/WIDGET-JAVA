@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/Widget.Widget.AppWidget.Container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/circle"
+    android:theme="@style/Widget.Widget.AppWidget.Container">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtJoke"
+            android:layout_width="270dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:text="Joke"
+            android:textAlignment="center"
+            android:textSize="12dp" />
+
+    <Button
+        android:id="@+id/btnRequest"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="Click" />
+    </LinearLayout>
+
+</RelativeLayout>
